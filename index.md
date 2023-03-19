@@ -1,5 +1,5 @@
 # Mastering Roda
-:copyright: Federico M. Iachetti, Avdi Grimm, Jeremy Evans  
+©️ Federico M. Iachetti, Avdi Grimm, Jeremy Evans  
 Translating to Russian language: Denis Borovensky
 ## Введение
 Я являюсь разработчиком Ruby on Rails с 2011 года. Rails — отличный фреймворк. Но при этом громоздкий и чрезмерно своенравный фреймворк. Он позволяет нам сделать практически все, что угодно, «из коробки» (независимо от того, нужно нам это или нет) без каких-либо дополнительных настроек. Но если мы захотим сделать что-то «нестандартное», то … окажемся предоставлены сами себе.
