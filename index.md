@@ -233,7 +233,9 @@ bundle install
 ```ruby
 rerun rackup
 ```
-Перейдем на `http://localhost:9292/hello` и убедимся, что теперь вывод обновляется без перезапуска приложения:
-![Hello, world!](assets/images/book/hello_world.png "Hello, world!") 
+Перейдем на `http://localhost:9292/hello` и убедимся, что теперь вывод обновляется без перезапуска приложения:  
+
+![Hello, world!](assets/images/book/hello_world.png "Hello, world!")  
+
 ## Приложение: джем lucid_http
 ---
