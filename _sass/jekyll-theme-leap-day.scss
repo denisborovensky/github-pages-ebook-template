@@ -343,6 +343,10 @@ nav {
           margin-top:10px;
         }
       }
+      &.tag-h3::before {
+
+        content: "– ";
+      }
     }
 
     a {
