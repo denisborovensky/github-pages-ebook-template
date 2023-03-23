@@ -332,9 +332,6 @@ nav {
           color: #333;
         }
 
-        + .tag-h3 {
-
-        }
       }
 
       &.tag-h3 {
@@ -342,10 +339,11 @@ nav {
         + .tag-h2 {
           margin-top:10px;
         }
-      }
-      &.tag-h3::before {
-
-        content: "– ";
+        &:before {
+          content: "- ";
+          color: #666;
+          &:hover { color: #999; }
+        }
       }
     }
 
