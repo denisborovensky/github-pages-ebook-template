@@ -1,0 +1,28 @@
+pdf-engine: xelatex
+
+input-file: index.md
+output-file: mastering_roda.pdf
+
+metadata:
+  title:  "Mastering Roda"
+  subtitle: "Version: alpha 0.0.1"
+  author:
+    - Federico M. Iachetti
+    - Avdi Grimm
+    - Jeremy Evans
+    - Translating to Russian language by Denis Borovensky
+
+toc: true
+toc-depth: 4
+number-sections: true
+top-level-division: part
+
+highlight-style: zenburn
+
+variables:
+  mainfont: Overpass
+  documentclass: report
+  toc-title: "Содержание"
+  colorlinks: true
+  urlcolor: NavyBlue
+  toccolor: black
