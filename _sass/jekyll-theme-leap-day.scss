@@ -201,17 +201,25 @@ header {
 
 #banner {
   z-index: 100;
-  left:0;
-  right:50%;
+  left: 0;
+  right: 50%;
   height: 50px;
-  margin-right:-382px;
+  margin-right: -382px;
   position: fixed;
-  top: 115px;
+  top: 0;
   background: #ffcc00;
   border: 1px solid #f0b500;
   box-shadow: 0px 1px 3px rgba(0,0,0,.25);
   border-radius: 0px 2px 2px 0px;
   padding-right: 10px;
+
+  #nav-header {
+    display: inline-block;
+    position: fixed;
+    left: 50%;
+    margin-left: -500px;
+    padding-top: 12px;
+  }
 
   .button {
     border: 1px solid #dba500;
@@ -291,7 +299,7 @@ section {
   width:590px;
   padding: 30px;
   margin: 20px 0;
-  margin-top: 190px;
+  margin-top: 80px;
   position:relative;
   background: #fbfbfb;
   border-radius: 3px;
@@ -306,8 +314,8 @@ small {
 nav {
   width: 230px;
   position: fixed;
-  top: 200px;
-  left:50%;
+  top: 80px;
+  left: 50%;
   bottom: 0;
   margin-left:-580px;
   text-align: right;
@@ -379,7 +387,7 @@ footer {
     margin:0;
   }
 
-  nav{
+  nav {
     display: none;
   }
 
@@ -396,14 +404,16 @@ footer {
   }
 
   #banner {
+
+    #nav-header {
+      display: none;
+    }
+
     width: 100%;
 
     .downloads {
         margin-right: 60px;
       }
-
-    .fork {
-    }
 
     #logo {
       margin-right: 15px;
@@ -414,7 +424,7 @@ footer {
     border:1px solid #e5e5e5;
     border-width:1px 0;
     padding: 30px;
-    margin: 190px auto 20px;
+    margin: 80px auto 20px;
     max-width: 600px;
   }
 
@@ -450,7 +460,10 @@ footer {
   }
 
   #banner {
-    top: 80px;
+
+    #nav-header {
+      display: none;
+    }
 
     .fork {
       float: left;
@@ -464,7 +477,7 @@ footer {
 
   section {
     padding: 20px;
-    margin-top: 130px;
+    margin-top: 80px;
     margin-bottom: 0px;
     width: auto;
   }
@@ -475,8 +488,6 @@ footer {
 }
 
 @media print, screen and (max-width: 480px) {
-  body {
-  }
 
   header{
     position: relative;
@@ -494,10 +505,14 @@ footer {
   }
   section {
     padding: 20px;
-    margin-top: 5px;
   }
 
   #banner { display: none;}
+
+  #nav-header {
+    display: none;
+  }
+
   header ul {
     display:none;
   }
