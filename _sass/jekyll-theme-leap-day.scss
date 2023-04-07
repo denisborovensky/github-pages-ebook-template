@@ -459,7 +459,16 @@ footer {
 @media print, screen and (max-width: 760px) {
 
   #banner {
+
     width: 100%;
+
+    .downloads {
+      margin-right: 60px;
+    }
+
+    #logo {
+      margin-right: 15px;
+    }
   }
 }
 
