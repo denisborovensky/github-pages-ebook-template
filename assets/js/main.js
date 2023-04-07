@@ -48,7 +48,7 @@ var sectionHeight = function() {
   $(window).resize(sectionHeight);
   
   $(function() {
-    $("section h1, section h2, section h3").each(function(){
+    $("section h2, section h3").each(function(){
       $("nav ul").append("<li class='tag-" + translit(this.nodeName.toLowerCase()) + "'><a href='#" + translit($(this).text().toLowerCase()) + "'>" + $(this).text() + "</a></li>");
       $(this).attr("id",translit($(this).text().toLowerCase()));
       $("nav ul li:first-child a").parent().addClass("active");
