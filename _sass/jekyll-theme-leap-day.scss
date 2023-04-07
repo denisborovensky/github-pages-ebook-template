@@ -436,14 +436,6 @@ footer {
     #nav-header {
       display: none;
     }
-
-    .downloads {
-        margin-right: 60px;
-      }
-
-    #logo {
-      margin-right: 15px;
-    }
   }
 
   section {
@@ -464,7 +456,7 @@ footer {
     }
 }
 
-@media print, screen and (max-width: 720px) {
+@media print, screen and (max-width: 760px) {
 
   #banner {
     width: 100%;
