@@ -437,8 +437,6 @@ footer {
       display: none;
     }
 
-    width: 100%;
-
     .downloads {
         margin-right: 60px;
       }
@@ -467,6 +465,13 @@ footer {
 }
 
 @media print, screen and (max-width: 720px) {
+
+  #banner {
+    width: 100%;
+  }
+}
+
+@media print, screen and (max-width: 720px) {
   body {
     word-wrap:break-word;
   }
@@ -488,10 +493,6 @@ footer {
   }
 
   #banner {
-
-    #nav-header {
-      display: none;
-    }
 
     .fork {
       float: left;
