@@ -280,13 +280,25 @@ dt {
   }
 
   #scroll {
-    position:absolute;
+    position: absolute;
     height: 36px;
     width: 36px;
-    right:7px;
-    top:7px;
+    right: 7px;
+    top: 7px;
     display: block;
     background: url(../images/scroll-icon.svg) no-repeat center;
+    cursor: pointer;
+  }
+
+  #scroll {
+    position: fixed;
+    height: 36px;
+    width: 36px;
+    top:7px;
+    display: block;
+    left: 50%;
+    margin-left: -325px;
+    background: url(../images/octocat-logo.svg) no-repeat center;
     cursor: pointer;
   }
 }
