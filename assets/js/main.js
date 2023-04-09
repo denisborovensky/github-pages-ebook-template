@@ -67,3 +67,6 @@ var sectionHeight = function() {
     $('img').on('load', sectionHeight);
   });
   
+function scrollToTop() {
+  window.scrollTo(0, 0);
+}
