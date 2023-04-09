@@ -463,9 +463,20 @@ footer {
       display: inline-block;
       margin-left: 0px;
     position:fixed;
-    left:20px;
+    left:50px;
 
       }
+
+    #logo {
+      position: fixed;
+      height: 36px;
+      width: 36px;
+      top:7px;
+      display: block;
+      float: left;
+      left: 7px;
+      background: url(../images/octocat-logo.svg) no-repeat center;
+    }
   }
 
   section {
