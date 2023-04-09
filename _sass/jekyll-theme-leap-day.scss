@@ -279,14 +279,14 @@ dt {
     }
   }
 
-  #logo {
+  #scroll {
     position:absolute;
     height: 36px;
     width: 36px;
     right:7px;
     top:7px;
     display: block;
-    background: url(../images/octocat-logo.svg);
+    background: url(../images/scroll-icon.svg) no-repeat;
   }
 }
 
@@ -433,7 +433,7 @@ footer {
       margin-right: 60px;
     }
 
-    #logo {
+    #scroll {
       margin-right: 15px;
     }
   }
