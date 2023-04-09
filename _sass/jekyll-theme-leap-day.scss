@@ -241,7 +241,7 @@ dt {
   .fork {
     position:fixed;
     left:50%;
-    margin-left:-325px;
+    margin-left:-285px;
     padding: 10px 12px;
     margin-top: 6px;
     line-height:14px;
@@ -290,7 +290,7 @@ dt {
     cursor: pointer;
   }
 
-  #scroll {
+  #logo {
     position: fixed;
     height: 36px;
     width: 36px;
@@ -299,7 +299,6 @@ dt {
     left: 50%;
     margin-left: -325px;
     background: url(../images/octocat-logo.svg) no-repeat center;
-    cursor: pointer;
   }
 }
 
