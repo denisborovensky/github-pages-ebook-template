@@ -288,6 +288,11 @@ dt {
     display: block;
     background: url(../images/scroll-icon.svg) no-repeat center;
     cursor: pointer;
+    opacity: 0.4;
+  }
+
+  #scroll:hover {
+    opacity: 1;
   }
 
   #logo {
@@ -298,6 +303,11 @@ dt {
     display: block;
     left: 50%;
     margin-left: -325px;
+    opacity: 0.4;
+  }
+
+  #logo:hover {
+    opacity: 1;
   }
 }
 
@@ -467,11 +477,6 @@ footer {
       }
 
     #logo {
-      position: fixed;
-      height: 36px;
-      width: 36px;
-      top:7px;
-      display: block;
       float: left;
       margin-left: 0px;
       left: 7px;
