@@ -209,9 +209,11 @@ dt {
   #nav-header {
     display: inline-block;
     position: fixed;
+    width: 230px;
     left: 50%;
-    margin-left: -500px;
+    margin-left: -580px;
     padding-top: 12px;
+    text-align: right;
   }
 
   .button {
@@ -485,9 +487,6 @@ footer {
 
   #banner { display: none;}
 
-  #nav-header {
-    display: none;
-  }
 }
 
 @media print {
