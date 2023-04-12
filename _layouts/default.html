@@ -16,25 +16,23 @@
     {% include head-custom.html %}
   </head>
   <body>
-    <header>
-      <div class="menu">
-        <a class="menu-triger" href="#"></a>
-        <div class="menu-popup">
-          <a class="menu-close" href="#"></a>
-          <ul>
-            <li><a href="#">URL 1</a></li>
-            <li><a href="#">URL 2</a></li>		
-            <li><a href="#">URL 3</a></li>
-          </ul>	
-        </div>
-      </div>
-    </header>
       <div id="banner">
         <div id="nav-header">
           <h2>Навигация</h2>
         </div>
         <a href="{{ site.github.repository_url }}"><img id="logo" src="{{ '/assets/images/octocat-logo.svg' | relative_url }}"></a>
         <a href="{{ site.github.repository_url | append: '/fork' }}" class="button fork"><strong>FORK ME!</strong></a>
+        <div class="menu">
+          <a class="menu-triger" href="#"></a>
+          <div class="menu-popup">
+            <a class="menu-close" href="#"></a>
+            <ul>
+              <li><a href="#">URL 1</a></li>
+              <li><a href="#">URL 2</a></li>		
+              <li><a href="#">URL 3</a></li>
+            </ul>	
+          </div>
+        </div>
         {% if site.show_downloads %}
           <div class="downloads">
             <span>Скачать:</span>

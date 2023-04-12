@@ -164,17 +164,14 @@ dt {
   font-weight:700;
 }
 
-header {
-	position: relative;
-}
 .menu-triger {
 	display: block;
-	width: 25px;
-	height: 17px;	
+	width: 36px;
+	height: 36px;	
 	background: url(../images/menu-icon.svg) 0 0 repeat;
 	position: absolute;
 	left: 50%;
-	top: 28px;
+	top: 8px;
 }	
 .menu-close {
 	display: block;
