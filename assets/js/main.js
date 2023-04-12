@@ -49,7 +49,7 @@ $(window).resize(sectionHeight);
   
 $(function() {
   $("#scroll").on("click", function() {
-    $("html, body").animate({scrollTop: 0}, 0);
+    $("html, body").animate({scrollTop: 0}, 400);
   });
 
   $("section h2, section h3").each(function(){
@@ -60,7 +60,7 @@ $(function() {
 
   $("nav ul li").on("click", "a", function(event) {
     var position = $($(this).attr("href")).offset().top - 60;
-    $("html, body").animate({scrollTop: position}, 0);
+    $("html, body").animate({scrollTop: position}, 400);
     $("nav ul li a").parent().removeClass("active");
     $(this).parent().addClass("active");
     event.preventDefault();
