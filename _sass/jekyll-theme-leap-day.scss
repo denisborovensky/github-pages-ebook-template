@@ -165,7 +165,7 @@ dt {
 }
 
 .menu-triger {
-	display: block;
+	display: none;
 	width: 36px;
 	height: 36px;	
 	background: url(../images/menu-button.svg) center no-repeat;
@@ -465,6 +465,10 @@ footer {
 
   nav {
     display: none;
+  }
+
+  .menu-triger {
+    display: block;
   }
 
   header, section, footer {
