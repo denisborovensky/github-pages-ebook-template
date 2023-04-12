@@ -164,6 +164,60 @@ dt {
   font-weight:700;
 }
 
+header {
+	position: relative;
+}
+.menu-triger {
+	display: block;
+	width: 25px;
+	height: 17px;	
+	background: url(../images/menu-icon.svg) 0 0 repeat;
+	position: absolute;
+	left: 50%;
+	top: 28px;
+}	
+.menu-close {
+	display: block;
+	width: 28px;
+	height: 28px;	
+	background: url(../images/close-icon.svg) 0 0 repeat;
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	z-index: 100;
+}
+.menu-popup {
+	display: none;	
+	background: #2c2e3e;
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 0;
+	box-sizing: border-box;
+	padding: 30px;
+	z-index: 9999;	
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.menu-popup ul {
+	margin: 0;
+	padding: 0;
+}
+.menu-popup li {
+	list-style: none;
+	margin: 10px 0;
+	padding: 0;
+}
+.menu-popup li a {
+	font-size: 18px;
+	font-family: "Arial";
+	color: rgb(255, 255, 255);
+	line-height: 1.4;	
+	text-decoration: none;
+}
+.body_pointer * {
+	cursor: pointer;
+}
+
 #book-header {
   padding: 20px;
   margin-bottom: 30px;
@@ -434,13 +488,13 @@ footer {
     max-width: 600px;
   }
 
-  footer{
+  footer {
     text-align: center;
     margin: 20px auto;
     position: relative;
-    left:auto;
-    bottom:auto;
-    width:auto;
+    left: auto;
+    bottom: auto;
+    width: auto;
     }
 }
 
@@ -463,7 +517,7 @@ footer {
 @media print, screen and (max-width: 720px) {
   
   body {
-    word-wrap:break-word;
+    word-wrap: break-word;
   }
 
   section {
@@ -482,10 +536,9 @@ footer {
       float: left;
       display: inline-block;
       margin-left: 0px;
-    position:fixed;
-    left:50px;
-
-      }
+    position: fixed;
+    left: 50px;
+    }
 
     #logo {
       float: left;
@@ -523,15 +576,17 @@ footer {
     padding: 20px;
   }
 
-  #banner { display: none;}
-
+  #banner {
+    display: none;
+  }
 }
 
 @media print {
+
   body {
-    padding:0.4in;
-    font-size:12pt;
-    color:#444;
+    padding: 0.4in;
+    font-size: 12pt;
+    color: #444;
   }
 }
 
