@@ -566,12 +566,12 @@ footer {
 
   #banner {
 
+    .fork {
+      display: none;
+    }
+
     .button {
       display: none;
-
-      .fork {
-        display: none;
-      }
     }
   }
 }
@@ -579,14 +579,6 @@ footer {
 @media print, screen and (max-width: 665px) {
 
   #banner {
-
-    .fork {
-      float: left;
-      display: inline-block;
-      margin-left: 0px;
-    position: fixed;
-    left: 50px;
-    }
 
     #logo {
       float: left;
