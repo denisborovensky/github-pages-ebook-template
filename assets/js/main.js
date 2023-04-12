@@ -1,4 +1,4 @@
-function translit(word){
+var translit = function(word) {
   var answer = '';
   var converter = {
     'а': 'a',    'б': 'b',    'в': 'v',    'г': 'g',    'д': 'd',
