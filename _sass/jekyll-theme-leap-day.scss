@@ -168,43 +168,50 @@ dt {
 	display: block;
 	width: 36px;
 	height: 36px;	
-	background: url(../images/menu-icon.svg) 0 0 repeat;
+	background: url(../images/menu-icon.svg) center no-repeat;
 	position: fixed;
 	left: 50%;
   margin-left: -18px;
-	top: 8px;
-}	
+	top: 7px;
+}
+
 .menu-close {
 	display: block;
-	width: 28px;
-	height: 28px;	
-	background: url(../images/close-icon.svg) 0 0 repeat;
-	position: absolute;
-	right: 20px;
-	top: 20px;
-	z-index: 100;
+	width: 36px;
+	height: 36px;
+	background: url(../images/close-icon.svg) center no-repeat;
+	z-index: 102;
+  position: fixed;
+  left: 50%;
+  margin-left: -18px;
+  top: 8px;
 }
+
 .menu-popup {
 	display: none;	
-	background: #2c2e3e;
+	background: #ffcc00;
+  border: 1px solid #f0b500;
 	position: absolute;
 	left: 0px;
 	right: 0px;
 	top: 0;
 	box-sizing: border-box;
 	padding: 30px;
-	z-index: 9999;	
+	z-index: 101;	
 	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
+
 .menu-popup ul {
 	margin: 0;
 	padding: 0;
 }
+
 .menu-popup li {
 	list-style: none;
 	margin: 10px 0;
 	padding: 0;
 }
+
 .menu-popup li a {
 	font-size: 18px;
 	font-family: "Arial";
@@ -212,6 +219,7 @@ dt {
 	line-height: 1.4;	
 	text-decoration: none;
 }
+
 .body_pointer * {
 	cursor: pointer;
 }
