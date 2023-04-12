@@ -173,6 +173,11 @@ dt {
 	left: 50%;
   margin-left: -18px;
 	top: 7px;
+  opacity: 0.4;
+}
+
+.menu-triger:hover {
+  opacity: 1;
 }
 
 .menu-close {
