@@ -190,10 +190,10 @@ dt {
 .menu-popup {
 	display: none;
   width: 590px;
-	position: absolute;
+	position: fixed;
 	left: 50%;
 	top: 0;
-  margin-left: -226px;
+  margin-left: -325px;
 	padding: 30px;
 	z-index: 101;
   background: #ffcc00;
