@@ -169,8 +169,9 @@ dt {
 	width: 36px;
 	height: 36px;	
 	background: url(../images/menu-icon.svg) 0 0 repeat;
-	position: absolute;
+	position: fixed;
 	left: 50%;
+  margin-left: -18px;
 	top: 8px;
 }	
 .menu-close {
