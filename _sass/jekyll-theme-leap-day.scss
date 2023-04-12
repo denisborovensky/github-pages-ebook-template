@@ -562,10 +562,10 @@ footer {
 
     .button {
       display: none;
-    }
 
-    .fork {
-      display: none;
+      .fork {
+        display: none;
+      }
     }
   }
 }
@@ -599,7 +599,7 @@ footer {
 
 @media print, screen and (max-width: 480px) {
 
-  header{
+  header {
     position: relative;
     padding: 5px 0px;
     min-height: 0px;
@@ -612,10 +612,6 @@ footer {
       -o-text-overflow: ellipsis;
       -ms-text-overflow: ellipsis;
     }
-  }
-
-  #banner {
-    display: none;
   }
 }
 
