@@ -465,6 +465,16 @@ footer {
     word-wrap:break-word;
   }
 
+  section {
+    padding: 20px;
+    margin-top: 80px;
+    margin-bottom: 0px;
+    width: auto;
+  }
+}
+
+@media print, screen and (max-width: 640px) {
+
   #banner {
 
     .fork {
@@ -481,13 +491,6 @@ footer {
       margin-left: 0px;
       left: 7px;
     }
-  }
-
-  section {
-    padding: 20px;
-    margin-top: 80px;
-    margin-bottom: 0px;
-    width: auto;
   }
 }
 
