@@ -461,6 +461,7 @@ footer {
 }
 
 @media print, screen and (max-width: 720px) {
+  
   body {
     word-wrap:break-word;
   }
@@ -491,6 +492,13 @@ footer {
       margin-left: 0px;
       left: 7px;
     }
+  }
+}
+
+@media print, screen and (max-width: 640px) {
+
+  section {
+    margin-top: 50px;
   }
 }
 
