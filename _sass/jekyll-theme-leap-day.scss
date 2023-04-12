@@ -581,6 +581,14 @@ footer {
   }
 }
 
+@media print, screen and (max-width: 650px) {
+
+  .menu-popup {
+    width: 100%;
+  }
+}
+
+
 @media print, screen and (max-width: 640px) {
 
   section {
