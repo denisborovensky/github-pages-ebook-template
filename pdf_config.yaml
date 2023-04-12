@@ -20,7 +20,7 @@ top-level-division: part
 highlight-style: zenburn
 
 variables:
-  mainfont: Overpass
+  mainfont: Rubik
   documentclass: report
   toc-title: "Содержание"
   colorlinks: true
