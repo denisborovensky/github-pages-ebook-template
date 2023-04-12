@@ -543,6 +543,33 @@ footer {
   }
 }
 
+@media print, screen and (max-width: 700px) {
+
+  #banner {
+
+    .downloads {
+
+      span {
+        display: none;
+      }
+    }
+  }
+}
+
+@media print, screen and (max-width: 515px) {
+
+  #banner {
+
+    .button {
+      display: none;
+    }
+
+    .fork {
+      display: none;
+    }
+  }
+}
+
 @media print, screen and (max-width: 665px) {
 
   #banner {
@@ -585,10 +612,6 @@ footer {
       -o-text-overflow: ellipsis;
       -ms-text-overflow: ellipsis;
     }
-  }
-  section {
-    margin-top: 0px;
-    padding: 20px;
   }
 
   #banner {
