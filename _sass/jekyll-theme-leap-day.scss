@@ -174,10 +174,10 @@ dt {
   margin-left: -18px;
 	top: 7px;
   opacity: 0.4;
-}
 
-.menu-triger:hover {
-  opacity: 1;
+  &:hover {
+    opacity: 1;
+  }
 }
 
 .menu-close {
@@ -204,24 +204,24 @@ dt {
   background: #ffcc00;
   border: 1px solid #f0b500;
 	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-}
 
-.menu-popup ul {
-	margin: 0;
-	padding: 0;
-}
+  ul {
+    margin: 0;
+    padding: 0;
 
-.menu-popup li {
-	list-style: none;
-	margin: 10px 0;
-	padding: 0;
-}
+    li {
+      list-style: none;
+      margin: 10px 0;
+      padding: 0;
 
-.menu-popup li a {
-	font-size: 18px;
-	color: #333;
-	line-height: 1.4;	
-	text-decoration: none;
+      a {
+        font-size: 18px;
+        color: #333;
+        line-height: 1.4;	
+        text-decoration: none;
+      }
+    }
+  }
 }
 
 .body_pointer * {
