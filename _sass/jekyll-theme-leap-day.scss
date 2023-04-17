@@ -210,15 +210,34 @@ dt {
     padding: 0;
 
     li {
-      list-style: none;
-      margin: 10px 0;
-      padding: 0;
+      padding: 5px 0px;
+      line-height: 16px;
 
-      a {
-        font-size: 18px;
-        color: #333;
-        line-height: 1.4;	
-        text-decoration: none;
+      &.tag-h2 {
+        font-size: 1.2em;
+
+        a {
+          font-weight: bold;
+          color: #333;
+        }
+
+      }
+
+      &.tag-h3 {
+
+        + .tag-h2 {
+          margin-top: 10px;
+        }
+
+        a {
+          color: #666;
+
+          &:before {
+            content: "- ";
+          }
+
+          &:hover { color: #999; }
+        }
       }
     }
   }
@@ -412,9 +431,6 @@ nav {
     li {
       padding: 5px 0px;
       line-height: 16px;
-      // padding-right: 17px;
-      // position: relative;
-      // right: -12px;
 
       &.tag-h2 {
         font-size: 1.2em;
