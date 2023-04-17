@@ -50,7 +50,7 @@ $(window).resize(sectionHeight);
 $(function() {
   var $menu_popup = $('.menu-popup');
 
-	$(".menu-triger, .menu-close").click(function(){
+	$(".menu-triger, .menu-close").click(function(event){
 		$menu_popup.slideToggle(300, function(){
 			if ($menu_popup.is(':hidden')) {
 				$('body').removeClass('body_pointer');
@@ -58,6 +58,7 @@ $(function() {
 				$('body').addClass('body_pointer');
 			}
 		});
+    event.preventDefault();
 	});
 
 	$(document).on('click', function(event){
