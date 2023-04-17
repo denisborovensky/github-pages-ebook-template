@@ -494,7 +494,7 @@ footer {
     display: block;
   }
 
-  header, section, footer {
+  section, footer {
     float:none;
 
     h1 {
@@ -626,24 +626,6 @@ footer {
 
     .button {
       display: none;
-    }
-  }
-}
-
-@media print, screen and (max-width: 480px) {
-
-  header {
-    position: relative;
-    padding: 5px 0px;
-    min-height: 0px;
-
-    h1 {
-      font-size: 24px;
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
-      -o-text-overflow: ellipsis;
-      -ms-text-overflow: ellipsis;
     }
   }
 }
