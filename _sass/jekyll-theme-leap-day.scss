@@ -185,9 +185,8 @@ dt {
 	width: 36px;
 	height: 36px;
 	background: url(../images/menu-button.svg) center no-repeat;
-  position: fixed;
-  left: 50%;
-  margin-left: -18px;
+  position: absolute;
+  right: 7px;
   top: 7px;
 }
 
@@ -605,6 +604,10 @@ footer {
     width: 100%;
     left: 0;
     margin-left: 0;
+  }
+
+  .menu-close {
+    right: 69px;
   }
 }
 
