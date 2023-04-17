@@ -228,6 +228,13 @@ dt {
 	cursor: pointer;
 }
 
+.mobile-nav {
+  position: relative;
+  height: 95%;
+  margin-top: 20px;
+  overflow-y: auto;
+}
+
 #book-header {
   padding: 20px;
   margin-bottom: 30px;
