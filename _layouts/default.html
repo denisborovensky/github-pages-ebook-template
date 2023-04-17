@@ -34,8 +34,9 @@
         {% if site.show_downloads %}
           <div class="downloads">
             <span>Скачать:</span>
-            <div class="button-cont"><a href="{{ site.github.zip_url }}" class="button">ZIP</a></div>
-            <div class="button-cont"><a href="{{ site.github.tar_url }}" class="button">TAR</a></div>
+            <div class="button-cont"><a href="{{ site.github.zip_url }}" class="button">zip</a></div>
+            <div class="button-cont"><a href="{{ site.github.tar_url }}" class="button">tar</a></div>
+            <div class="button-cont"><a href="{{ '/mastering_roda.pdf' | relative_url }}" class="button">pdf</a></div>
           </div>
         {% endif %}
         <div id="scroll" onclick="scrollToTop()"></div>
