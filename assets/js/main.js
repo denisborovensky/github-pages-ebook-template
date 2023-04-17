@@ -60,8 +60,8 @@ $(function() {
 		});
 	});
 
-	$(document).on('click', function(e){
-		if (!$(e.target).closest('.menu').length){
+	$(document).on('click', function(event){
+		if (!$(event.target).closest('.menu').length){
 			$('body').removeClass('body_pointer');
 			$menu_popup.slideUp(300);
 		}
@@ -77,16 +77,24 @@ $(function() {
     $("nav ul li:first-child a").parent().addClass("active");
   });
 
+  $("nav ul li").on("click", "a", function(event) {
+    var position = $($(this).attr("href")).offset().top - 60;
+    $("html, body").animate({scrollTop: position}, 400);
+    $("nav ul li a").parent().removeClass("active");
+    $(this).parent().addClass("active");
+    event.preventDefault();
+  });
+
   $("section h2, section h3").each(function(){
     $(".menu-popup ul").append("<li class='tag-" + translit(this.nodeName.toLowerCase()) + "'><a href='#" + translit($(this).text().toLowerCase()) + "'>" + $(this).text() + "</a></li>");
     $(this).attr("id",translit($(this).text().toLowerCase()));
     $(".menu-popup ul li:first-child a").parent().addClass("active");
   });
 
-  $("nav ul li").on("click", "a", function(event) {
+  $(".menu-popup ul li").on("click", "a", function(event) {
     var position = $($(this).attr("href")).offset().top - 60;
     $("html, body").animate({scrollTop: position}, 400);
-    $("nav ul li a").parent().removeClass("active");
+    $(".menu-popup ul li a").parent().removeClass("active");
     $(this).parent().addClass("active");
     event.preventDefault();
   });
