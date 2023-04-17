@@ -185,7 +185,6 @@ dt {
 	width: 36px;
 	height: 36px;
 	background: url(../images/menu-button.svg) center no-repeat;
-	z-index: 102;
   position: fixed;
   left: 50%;
   margin-left: -18px;
@@ -195,6 +194,7 @@ dt {
 .menu-popup {
 	display: none;
   width: 590px;
+  height: 50%;
 	position: fixed;
 	left: 50%;
 	top: 0;
