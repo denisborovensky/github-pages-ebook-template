@@ -184,10 +184,10 @@ dt {
 	display: block;
 	width: 36px;
 	height: 36px;
-	background: url(../images/menu-button.svg) center no-repeat;
+	background: url(../images/close-button.svg) center no-repeat;
   position: absolute;
   right: 7px;
-  top: 7px;
+  top: 6px;
 }
 
 .menu-popup {
@@ -371,7 +371,7 @@ header {
     right: 7px;
     top: 7px;
     display: block;
-    background: url(../images/scroll-icon.svg) no-repeat center;
+    background: url(../images/scroll-button.svg) no-repeat center;
     cursor: pointer;
     opacity: 0.4;
   }
