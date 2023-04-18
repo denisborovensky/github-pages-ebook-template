@@ -554,6 +554,17 @@ footer {
     word-wrap: break-word;
   }
 
+  header {
+
+    #logo {
+      margin-left: -310px;
+    }
+
+    .fork {
+      margin-left: -265px;
+    }
+  }
+
   section {
     padding: 10px;
     margin-top: 80px;
@@ -580,26 +591,6 @@ footer {
   }
 }
 
-@media print, screen and (max-width: 665px) {
-
-  header {
-
-    .fork {
-      float: left;
-      display: inline-block;
-      margin-left: 0px;
-    position: fixed;
-    left: 50px;
-    }
-
-    #logo {
-      float: left;
-      margin-left: 0px;
-      left: 7px;
-    }
-  }
-}
-
 @media print, screen and (max-width: 650px) {
 
   .menu-popup {
@@ -618,6 +609,25 @@ footer {
 
   section {
     margin-top: 50px;
+  }
+}
+
+@media print, screen and (max-width: 620px) {
+
+  header {
+
+    .fork {
+      display: inline-block;
+      margin-left: 0px;
+      position: fixed;
+      left: 52px;
+    }
+
+    #logo {
+      float: left;
+      margin-left: 0px;
+      left: 7px;
+    }
   }
 }
 
