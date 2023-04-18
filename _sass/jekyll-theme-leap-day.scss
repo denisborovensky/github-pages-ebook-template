@@ -175,19 +175,20 @@ dt {
 	top: 7px;
   opacity: 0.4;
 
-  &:hover {
-    opacity: 1;
-  }
+  &:hover { opacity: 1; }
 }
 
 .menu-close {
 	display: block;
 	width: 36px;
 	height: 36px;
-	background: url(../images/close-button.svg) center no-repeat;
   position: absolute;
   right: 7px;
   top: 6px;
+	background: url(../images/close-button.svg) center no-repeat;
+  opacity: 0.4;
+
+  &:hover { opacity: 1; }
 }
 
 .menu-popup {
@@ -376,10 +377,8 @@ header {
     background: url(../images/scroll-button.svg) no-repeat center;
     cursor: pointer;
     opacity: 0.4;
-  }
 
-  #scroll:hover {
-    opacity: 1;
+    &:hover { opacity: 1; }
   }
 
   #logo {
@@ -391,10 +390,10 @@ header {
     left: 50%;
     margin-left: -325px;
     opacity: 0.4;
-  }
 
-  #logo:hover {
-    opacity: 1;
+    &:hover {
+      opacity: 1;
+    }
   }
 }
 
