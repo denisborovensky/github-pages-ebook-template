@@ -457,17 +457,19 @@ nav {
           &:before {
             content: "- ";
           }
-
-          &:hover { color: #999; }
         }
-        
+      }
+
+      &:hover {
+        border-right: solid 10px #39C;
+        padding-right: 13px;
       }
     }
 
-    // .active {
-    //   border-right: solid 4px #39C;
-    //   padding-right: 13px;
-    // }
+    .active {
+      border-right: solid 10px #39C;
+      padding-right: 13px;
+    }
   }
 }
 
