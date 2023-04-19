@@ -460,7 +460,7 @@ nav {
         }
       }
 
-      &:hover {
+      &:hover:not(.active) {
         border-right: dotted 10px #39C;
         padding-right: 13px;
       }
