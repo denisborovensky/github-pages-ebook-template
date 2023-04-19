@@ -237,10 +237,18 @@ dt {
           &:before {
             content: "- ";
           }
-
-          &:hover { color: #999; }
         }
       }
+
+      &:hover:not(.active) {
+        border-left: dotted 10px #39C;
+        padding-left: 13px;
+      }
+    }
+
+    .active {
+      border-left: solid 10px #39C;
+      padding-left: 13px;
     }
   }
 }
