@@ -1,18 +1,73 @@
-## Введение  
+## Header 2  
 
 ---  
 
-Я являюсь разработчиком **Ruby on Rails** с 2011 года. **Rails** — отличный, но при этом громоздкий и чрезмерно своенравный фреймворк. Он позволяет нам сделать практически все, что угодно, «из коробки» (независимо от того, нужно нам это или нет) без каких-либо дополнительных настроек. Но если мы захотим сделать что-то «нестандартное», то … окажемся предоставлены сами себе.  
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis suscipit, risus vitae blandit sagittis, justo velit hendrerit tortor, id tincidunt turpis eros sed ligula. In hac habitasse platea dictumst. Ut malesuada tellus eget metus tempus porttitor. Nullam ac ultrices diam, a placerat tellus. Aliquam laoreet ex et nulla facilisis porttitor. Vestibulum quis ultrices lorem, quis accumsan ligula. Integer id risus lacus. Vivamus posuere neque in lacinia interdum. Donec lobortis ullamcorper erat, et luctus nunc blandit eget. Nulla semper, mi bibendum blandit tristique, augue dui pharetra leo, non suscipit arcu nulla at elit. Proin posuere in lacus sed rhoncus. Mauris fringilla in arcu vel iaculis. Vivamus facilisis orci id lorem pretium tempus. Curabitur euismod nibh in mi condimentum dapibus. Nam pharetra facilisis lectus ut vulputate.  
 
-Именно поэтому спустя некоторое время разработки на **Rails** я решил, что хочу перейти к более легковесным фреймворкам и использовать более минималистичный подход в разработке. Спустя некоторое время, перепробовав несколько джемов, я остановился на **Roda** — небольшом фреймворке, созданном Джереми Эвансом, который мне очень понравился. Понравился настолько, что я захотел поделиться своими знаниями о том, как его использовать.  
+Suspendisse vehicula pretium gravida. Aliquam erat volutpat. Sed in risus mauris. Aliquam erat volutpat. Praesent maximus vel dolor ac convallis. Suspendisse vel felis in purus ullamcorper venenatis vitae vitae nisl. Phasellus eu velit pellentesque lorem aliquet viverra. Aenean aliquet hendrerit gravida. Sed volutpat ligula feugiat massa pulvinar accumsan.  
 
-### Что такое Roda?  
+In dictum lacus faucibus ultricies ullamcorper. Aliquam quis condimentum elit. Praesent fermentum elementum efficitur. Curabitur ornare ex ut urna accumsan luctus. Nam ullamcorper, mauris non vestibulum consequat, metus sapien congue lectus, vel placerat velit lorem et enim. Integer efficitur, felis vel venenatis viverra, augue sapien aliquam elit, sed venenatis neque sapien et leo. Pellentesque vulputate dolor ipsum, ac aliquet purus vehicula ac. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus pellentesque nec leo a iaculis. Mauris placerat magna eget vulputate dapibus.  
 
-**Roda** представляет собой набор инструментов для построения древа маршрутизации. В основе философии **Roda** лежат такие принципы, как простота, надежность, расширяемость и производительность. И хотя по умолчанию разработчику доступны лишь самые основные функции, благодаря обширной библиотеке плагинов функционал **Roda** может быть значительно расширен.  
+### Header 3  
 
-Каждый плагин, поставляемый с **Roda**, можно рассматривать как отдельный узкоспециализированный инструмент, который может понадобиться нам в процессе создания веб-приложения, а в зависимости от поставленной задачи, мы можем самостоятельно формировать необходимый инструментарий. Таким образом **Roda** оказывается скорее ближе к расширяемой библиотеке, нежели к фреймворку, хотя ее и принято называть именно так.  
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis suscipit, risus vitae blandit sagittis, justo velit hendrerit tortor, id tincidunt turpis eros sed ligula. In hac habitasse platea dictumst. Ut malesuada tellus eget metus tempus porttitor. Nullam ac ultrices diam, a placerat tellus. Aliquam laoreet ex et nulla facilisis porttitor. Vestibulum quis ultrices lorem, quis accumsan ligula. Integer id risus lacus. Vivamus posuere neque in lacinia interdum. Donec lobortis ullamcorper erat, et luctus nunc blandit eget. Nulla semper, mi bibendum blandit tristique, augue dui pharetra leo, non suscipit arcu nulla at elit. Proin posuere in lacus sed rhoncus. Mauris fringilla in arcu vel iaculis. Vivamus facilisis orci id lorem pretium tempus. Curabitur euismod nibh in mi condimentum dapibus. Nam pharetra facilisis lectus ut vulputate.  
 
-В основе механизма маршрутизации, используемого **Roda**, лежит построение древа маршрутизации. Как мы увидим в дальнейшем, такой подход обеспечивает **Roda** невероятную гибкость и мощь. Ключевое преимущество древа маршрутизации заключается в том, что процессы обработки запросов и маршрутизации тесно интегрированы между собой. Возможность обработки запроса непосредственно во время его маршрутизации позволяет устранить дублирование, присущее многим другим веб-фреймворкам, в которых маршрутизация и обработка запросов разделены.  
+Suspendisse vehicula pretium gravida. Aliquam erat volutpat. Sed in risus mauris. Aliquam erat volutpat. Praesent maximus vel dolor ac convallis. Suspendisse vel felis in purus ullamcorper venenatis vitae vitae nisl. Phasellus eu velit pellentesque lorem aliquet viverra. Aenean aliquet hendrerit gravida. Sed volutpat ligula feugiat massa pulvinar accumsan.  
+
+In dictum lacus faucibus ultricies ullamcorper. Aliquam quis condimentum elit. Praesent fermentum elementum efficitur. Curabitur ornare ex ut urna accumsan luctus. Nam ullamcorper, mauris non vestibulum consequat, metus sapien congue lectus, vel placerat velit lorem et enim. Integer efficitur, felis vel venenatis viverra, augue sapien aliquam elit, sed venenatis neque sapien et leo. Pellentesque vulputate dolor ipsum, ac aliquet purus vehicula ac. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus pellentesque nec leo a iaculis. Mauris placerat magna eget vulputate dapibus.  
+
+#### Header 4  
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis suscipit, risus vitae blandit sagittis, justo velit hendrerit tortor, id tincidunt turpis eros sed ligula. In hac habitasse platea dictumst. Ut malesuada tellus eget metus tempus porttitor. Nullam ac ultrices diam, a placerat tellus. Aliquam laoreet ex et nulla facilisis porttitor. Vestibulum quis ultrices lorem, quis accumsan ligula. Integer id risus lacus. Vivamus posuere neque in lacinia interdum. Donec lobortis ullamcorper erat, et luctus nunc blandit eget. Nulla semper, mi bibendum blandit tristique, augue dui pharetra leo, non suscipit arcu nulla at elit. Proin posuere in lacus sed rhoncus. Mauris fringilla in arcu vel iaculis. Vivamus facilisis orci id lorem pretium tempus. Curabitur euismod nibh in mi condimentum dapibus. Nam pharetra facilisis lectus ut vulputate.  
+
+Suspendisse vehicula pretium gravida. Aliquam erat volutpat. Sed in risus mauris. Aliquam erat volutpat. Praesent maximus vel dolor ac convallis. Suspendisse vel felis in purus ullamcorper venenatis vitae vitae nisl. Phasellus eu velit pellentesque lorem aliquet viverra. Aenean aliquet hendrerit gravida. Sed volutpat ligula feugiat massa pulvinar accumsan.  
+
+In dictum lacus faucibus ultricies ullamcorper. Aliquam quis condimentum elit. Praesent fermentum elementum efficitur. Curabitur ornare ex ut urna accumsan luctus. Nam ullamcorper, mauris non vestibulum consequat, metus sapien congue lectus, vel placerat velit lorem et enim. Integer efficitur, felis vel venenatis viverra, augue sapien aliquam elit, sed venenatis neque sapien et leo. Pellentesque vulputate dolor ipsum, ac aliquet purus vehicula ac. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus pellentesque nec leo a iaculis. Mauris placerat magna eget vulputate dapibus.  
+
+## Samples  
+
+---  
+
+## Quote sample  
+
+> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis suscipit, risus vitae blandit sagittis, justo velit hendrerit tortor, id tincidunt turpis eros sed ligula. In hac habitasse platea dictumst. Ut malesuada tellus eget metus tempus porttitor. Nullam ac ultrices diam, a placerat tellus. Aliquam laoreet ex et nulla facilisis porttitor. Vestibulum quis ultrices lorem, quis accumsan ligula. Integer id risus lacus. Vivamus posuere neque in lacinia interdum. Donec lobortis ullamcorper erat, et luctus nunc blandit eget. Nulla semper, mi bibendum blandit tristique, augue dui pharetra leo, non suscipit arcu nulla at elit. Proin posuere in lacus sed rhoncus. Mauris fringilla in arcu vel iaculis. Vivamus facilisis orci id lorem pretium tempus. Curabitur euismod nibh in mi condimentum dapibus. Nam pharetra facilisis lectus ut vulputate.  
+
+## Code sample  
+
+Ruby sample function
+```ruby
+# Accepts input and returns an output
+def say_hello(name)
+  return "Hello #{name}!"
+end
+
+puts say_hello("John") # "Hello John!" is displayed on the screen.
+```
+
+Python sample function
+```python
+# Accepts input and returns an output
+def say_hello(name)
+    return f"Hello {name}!"
+
+print(say_hello("John")) # "Hello John!" is displayed on the screen.
+```
+
+JavaScript sample function
+```javascript
+"use strict";
+
+let userName = 'John';
+
+# Accepts input and returns an output
+function showMessage( userName ) {
+
+  let message = 'Hello, ' + userName + '!';
+  console.log(message);
+}
+
+showMessage( userName ); # "Hello John!" is displayed on the screen.
+```
 
 ![Древо маршрутизации Roda](assets/images/book/routing_tree_definition.png "Древо маршрутизации Roda")  
 
