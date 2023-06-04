@@ -1,6 +1,6 @@
-title: Mastering Roda
-description: © Federico M. Iachetti, Avdi Grimm, Jeremy Evans; translating to Russian language by Denis Borovensky
-locale: ru_RU
+title: Sample header
+description: Sample description
+locale: en_EN
 author:
   name: Denis Borovensky
   url: https://github.com/denisborovensky/
