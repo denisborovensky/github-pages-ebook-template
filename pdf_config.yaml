@@ -1,16 +1,13 @@
 pdf-engine: xelatex
 
 input-file: index.md
-output-file: mastering_roda.pdf
+output-file: index.pdf
 
 metadata:
-  title:  "Mastering Roda"
-  subtitle: "Version: alpha 0.0.1"
+  title:  "eBook template"
+  subtitle: "Version: 1.0"
   author:
-    - Federico M. Iachetti
-    - Avdi Grimm
-    - Jeremy Evans
-    - Denis Borovensky (additions and translation to Russian language)
+    - Denis Borovensky
 
 toc: true
 toc-depth: 4
